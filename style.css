@@ -30,8 +30,7 @@ margin-left: 15px;
     font-size: 26px;
     font-weight: 700;
     line-height: 32.78px;
-    letter-spacing: 0.03em;
-    color: black;     
+    letter-spacing: 0.03em;    
 }
 .a99{
     color: #3562f8;
@@ -45,8 +44,7 @@ margin-left: 15px;
     font-size: 26px;
     font-weight: 800;
     line-height: 32.78px;
-    letter-spacing: 0.03em;
-    color: black;     
+    letter-spacing: 0.03em;/
 }
 .a102{
     color: #3562f8;
@@ -956,81 +954,23 @@ margin-top: 16px;
 .tiwt{
     margin-left: 15px;
 }
-.Day{
-    width: 1200px;
-    margin: auto;
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Arial";
+}
+i{
+    position: relative;
     position: fixed;
-    right: 15px;
-    top: 15px;
-    border: none;
-    outline: none;
-    width: 65px;
-    height: 65px;
-    border-radius: 50%;
-    background-color: rgb(71, 104, 146);
-    transition: filter .4s, background-color .4s;
+    font-size: 50px;
     cursor: pointer;
-}
-.Day:hover{
-    filter:brightness(120%);
-}
-.Day:active{
-    filter:brightness(80%);
-}
-.day_icons{
-    position: absolute;
-    left: 50%;
     top: 50%;
-    width: 40px;
-    height: 40px;
-    margin-left: -20px;
-    margin-top: -20px;
-    opacity: 0;
-    transition:  opacity.10s;
-}
-.day_icons circle,
-.day_icons path {
-    fill: rgb(238, 235, 235);
-}
-.day_icons_moon{
-    opacity: 1;
-} 
-body.day-icon{
-    background-color: rgb(61, 57, 57);
-    color: white;
-}
-body.day-icon .btn1{
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-}
-body.day-icon .btn2{
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-}
-body.day-icon .btn3{
-    color: rgb(255, 255, 255);
-    background-color: rgb(80, 156, 255);
-}
-body.day-icon .btn4{
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-}
-body.day-icon  .a100{
-    color: white;
-}
-body.day-icon  .a101{
-    color: white;
-}
-body.day-icon  .SignIn{
-    color: white;
-    background-color: rgb(61, 57, 57);
-}
-body.day-icon .Day{
-    background-color: rgb(214, 202, 92);
-}
-body.day-icon .day_icons_moon{
-    opacity: 0;
-}
-body.day-icon .day_icons_sun{
-    opacity: 1;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 200px;
+    margin-top: -300px;
+    margin: auto;
+    width: 1200px;
+    margin-left: 1200px;
+    margin-top: -380px;
 }
